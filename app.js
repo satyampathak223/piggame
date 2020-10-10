@@ -44,7 +44,7 @@ document.querySelector('.btn-roll').addEventListener('click', function () {
       domdice.src = 'dice-' + dice + '.png';
       if (dice !== 1) {
          roundscore += dice;
-         //Dislay round score of active player
+         //Displays round score of active player
          document.querySelector('#current-' + activeplayer).textContent = roundscore;
       }
       else {
